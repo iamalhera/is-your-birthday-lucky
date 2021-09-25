@@ -5,26 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Is Your Birthday Lucky ?</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <nav>
-        <h1>Is Your Birthday Lucky ?</h1>
-        <p>Privacy Note : We are not storing your data</p>
+        <h1>Is your Birthday Lucky ?</h1>
+        <div>Privacy Note : We are not storing your data</div>
+
     </nav>
 
     <main>
-        <label for="date-of-birth">Date Of Birth : </label>
-        <input type=date id="date-of-birth" min="1990-01-01" max="2004-04-01"></input>
-        <label for="lucky-number">Lucky Number : </label>
-        <input type=number id="lucky-number"/>
-        
+        <div class="date">
+            <label for="date-of-birth">Date Of Birth : </label>
+            <input type=date id="date-of-birth" min="1990-01-01" max="2004-04-01"></input>
+        </div>
+        <div class="lucky-num">
+            <label for="lucky-number">Lucky Number : </label>
+            <input type=number id="lucky-number"/>
+        </div>
         <button id="check-button">Check Number</button>
 
-        <div id="result"></div>  
+        <textarea id="result"></textarea>  
     </main>
     
 
+    <footer>
+        <div>
+            <h2>Made by Al Hera Ahmad</h2>
+            <a target="_blank" class="footer-btn" href="https://github.com/iamalhera/is-your-birthday-lucky">Source Code</a>
+        </div>
 
+        <div class="social-handles">
+            <div class="footer-header">Connect with Me</div>
+                <ul>
+                    <li class="list-item-inline list-non-bullet">
+                        <a class="link" href="https://github.com/iamalhera">
+                            GitHub
+                        </a>
+                    </li>
+                    <li class="list-item-inline list-non-bullet">
+                        <a class="link" href="https://www.facebook.com/alhera.ahmad">
+                        Facebook
+                    </a>
+                    </li>
+                    <li class="list-item-inline list-non-bullet">
+                        <a class="link" href="https://www.instagram.com/gentle_shah/">
+                        Instagram
+                    </a>
+                    </li>
+                </ul>
+        </div>
+
+        <div>
+            <a target="_blank" class="footer-btn" href="https://gentleshah.netlify.app">Portfolio</a>
+        </div>
+
+    </footer>
 
 
 
